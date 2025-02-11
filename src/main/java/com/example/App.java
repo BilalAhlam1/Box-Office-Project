@@ -13,6 +13,7 @@ public class App extends Application {
         StackPane root = new StackPane(label);
         Scene scene = new Scene(root, 400, 300);
 
+
         stage.setTitle("JavaFX Maven App");
         stage.setScene(scene);
         stage.show();
