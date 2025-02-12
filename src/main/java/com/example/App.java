@@ -6,10 +6,12 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
+import java.sql.*;
+
 public class App extends Application {
     @Override
-    public void start(Stage stage) {
-        Label label = new Label("Hello, JavaFX with Maven!");
+    public void start(Stage stage) throws SQLException {
+        Label label = new Label("Hello!");
         StackPane root = new StackPane(label);
         Scene scene = new Scene(root, 400, 300);
 
